@@ -1,0 +1,69 @@
+/*Configuração padrão da pagina
+-------------------------------*/
+body, html{
+    margin: 0px;
+    height: 100%;
+    color: #777;   
+    font-family: sans-serif;
+}
+p{
+    margin-bottom: 20px;
+}
+.conteudo{
+    background-color: white;
+    color: #777;
+    text-align: justify;
+    padding: 50px 80px;
+}
+h3{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+/*Efeito parallax
+-----------------*/
+.caixa1, .caixa2, .caixa3, .caixa4{  
+    position: relative; 
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+.caixa1{
+    background-image: url(imagens/imagem1.jpg);
+}
+.caixa2{
+    background-image: url(imagens/imagem2.jpg) ;
+}
+.caixa3{
+    background-image: url(imagens/imagem3.jpg) ;
+}
+.caixa4{
+    background-image: url(imagens/imagem4.jpg) ;
+}
+.conteudo-titulo{
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;   
+    text-align: center;
+  
+   
+}
+.conteudo-titulo span.titulo{
+    color: white;
+    background: black;
+    padding: 18px;
+    font-size: 25x;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+.conteudo-titulo span.titulo:hover{
+    background: white;
+    color: black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
